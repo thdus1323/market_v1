@@ -1,2 +1,0 @@
-package com.example.store.product;public class ProductRepository {
-}
