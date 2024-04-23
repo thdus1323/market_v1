@@ -16,4 +16,10 @@ public class ProductNativeRepository {
         Query query = em.createNativeQuery("select * from product_tb order by id desc",Product.class);
         return query.getResultList();
     }
+
+    public void save() {
+    }
+
+    public void updateById(Integer id, String name, Integer price, Integer qty) {
+    }
 }
